@@ -1,4 +1,4 @@
-# Sass basic package
+# Sass Bourbon Package
 
 Sass and Bourbon package compatible with windows, mac os x and linux.
 
