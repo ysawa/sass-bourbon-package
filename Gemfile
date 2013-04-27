@@ -4,7 +4,7 @@ gem 'bourbon'
 gem 'guard'
 gem 'guard-sass'
 gem 'bourbon'
-gem 'pry'
+gem 'pry', git: 'https://github.com/pry/pry.git'
 
 gem 'rb-fsevent', require: false if RUBY_PLATFORM =~ /darwin/i # mac os x
 
