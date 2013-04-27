@@ -8,4 +8,4 @@ See http://sass-lang.com/
 
 Bourbon is one of Sass plugin. It includes a lot of often-used mixins and nice variables like +clearfix or $all-text-inputs.
 
-http://bourbon.io/ Docs are here.
+http://bourbon.io/ has very conveniet docs.
