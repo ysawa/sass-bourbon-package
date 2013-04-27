@@ -24,7 +24,9 @@ We should install these plugins below.
 2. Bundler
 3. gem packages
 
-### Install on Windows
+### Install Ruby
+
+#### Windows
 
 Visit http://rubyinstaller.org/downloads/ and download Ruby 2.0.0 installer. Check if your device is x64 or not. After downloading the ruby installer, install it. If you find some checkboxes on the installation dialog, I recommend you to check the "Add Ruby executables to your PATH" checkbox.
 
@@ -41,6 +43,47 @@ ruby dk.rb install
 
 This is the end of installing Ruby on your Windows.
 
-### Install on Mac OS X
+#### Mac OS X
 
 Visit https://rvm.io/ and copy the command for installation and paste it on your terminal. That's all.
+
+### Install Bundler
+
+Open your command line or terminal and execute this command
+
+```
+gem install bundler
+```
+
+It's very easy.
+
+### Install gem packages
+
+Download https://github.com/ysawa/sass-basic-package/archive/v1.1.zip , and extract it.
+
+Next open your command line or terminal, and execute these commands.
+
+```
+cd (extracted directory path)
+bundle
+```
+
+If you can execute without error, the installation has been finished.
+
+### Guard your Sass files
+
+Open your command line or terminal, and guard your sass files.
+
+```
+cd (extracted directory path)
+bundle exec guard
+```
+
+If you are a windows user and it doesn't work well, try it.
+
+```
+cd (extracted directory path)
+bundle exec guard -i
+```
+
+Then, you can edit your sass in css/sass directory. If you write right Sass file, Guard will convert it into CSS file. It is very convenient.
