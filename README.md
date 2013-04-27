@@ -86,4 +86,4 @@ cd (extracted directory path)
 bundle exec guard -i
 ```
 
-Then, you can edit your sass in css/sass directory. If you write right Sass file, Guard will convert it into CSS file. It is very convenient.
+Then, you can edit your sass in css/sass directory. If you write right Sass codes and save the file, Guard will convert it into CSS file. It is very convenient.
