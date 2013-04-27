@@ -34,7 +34,8 @@ If you are a windows user, you also need DEVELOPMENT KIT (DevKit-mingw64-32 or D
 cd C:\DevKit
 ruby dk.rb init
 
-(configuration finished) exit
+(after configuration finished, just exit) exit
+
 ruby dk.rb install
 ```
 
