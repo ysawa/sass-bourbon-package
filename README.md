@@ -28,6 +28,18 @@ We should install these plugins below.
 
 Visit http://rubyinstaller.org/downloads/ and download Ruby 2.0.0 installer. Check if your device is x64 or not. After downloading the ruby installer, install it. If you find some checkboxes on the installation dialog, I recommend you to check the "Add Ruby executables to your PATH" checkbox.
 
+If you are a windows user, you also need DEVELOPMENT KIT (DevKit-mingw64-32 or DevKit-mingw64-64.) Select DevKit-mingw64-64 if your device is x64. Downloading it and extract it into C:\DevKit . After extracting it, open cmd.exe in the start menu.
+
+```
+cd C:\DevKit
+ruby dk.rb init
+
+(configuration finished) exit
+ruby dk.rb install
+```
+
+This is the end of installing Ruby on your Windows.
+
 ### Install on Mac OS X
 
 Visit https://rvm.io/ and copy the command for installation and paste it on your terminal. That's all.
