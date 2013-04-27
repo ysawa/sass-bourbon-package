@@ -17,4 +17,6 @@ when /darwin/i
   gem 'terminal-notifier-guard'
 when /mswin(?!ce)|mingw|cygwin|bccwin/i
   gem 'rb-notifu'
+  gem 'win32console'
+  gem 'wdm'
 end
