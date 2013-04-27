@@ -59,7 +59,7 @@ It's very easy.
 
 ### Install gem packages
 
-Download https://github.com/ysawa/sass-basic-package/archive/v1.1.zip , and extract it.
+Download https://github.com/ysawa/sass-bourbon-package/archive/v1.1.zip , and extract it.
 
 Next open your command line or terminal, and execute these commands.
 
